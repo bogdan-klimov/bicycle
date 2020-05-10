@@ -60,3 +60,31 @@ ul {
 .left-menu li a:hover, .right-menu li a:hover {
     text-decoration: underline;
 }
+
+.first-section {
+    padding: 117px 0 145px;
+}
+
+.chain {
+    margin: 0 auto;
+    display: block;
+}
+
+.generation-header {
+    color: #353738;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.generation-description {
+    max-width: 1079px;
+    color: #848789;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+}
