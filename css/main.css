@@ -49,6 +49,7 @@ ul {
 
 .header .container {
     display: flex;
+    justify-content: space-between;
 }
 
 .left-menu, .right-menu {
@@ -78,10 +79,17 @@ ul {
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 3.6px;
 }
 
 .left-part, .right-part-2 {
     position: relative;
+}
+
+.left-part {
+    background-image: url(../images/bicycle1-background.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .generation-description {
@@ -92,21 +100,36 @@ ul {
     text-align: center;
     margin: 0 auto;
     font-weight: 400;
+    line-height: 34px;
 }
 
-.bicycle1-background, .bicycle-background-2 {
-    width: 100%;
-    height: 100%;
+.bicycle-seat-new {
+    background-image: url(../images/saddle-background-new.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.bicycle-seat, .bicycle-seat-new {
+.right-part-2 {
+    background-image: url(../images/bicycle-background-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bicycle-seat-new {
     position: relative;
+}
+
+.bicycle-seat {
+    position: relative;
+    background-image: url(../images/saddle-background.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .header-work {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 600px;
 }
 
 .middle-work {
@@ -116,13 +139,16 @@ ul {
 
 .right-part {
     display: grid;
-    grid-template-rows: 1fr 200px;
+    grid-template-rows: 400px 200px;
 }
 
 .bicycle-logo, .logo-vintage {
     position: absolute;
-    left: calc(50% - 60px);
-    top: calc(50% - 60px)
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 .vintage h3, .boriosa h3 {
@@ -157,6 +183,7 @@ ul {
 
 hr {
     max-width: 50px;
+    margin-top: 30px;
     display: flex;
     background-color: #d7d7d7;
 }
@@ -179,3 +206,132 @@ hr {
     width: 100%;
     height: 100%;
 }
+
+.left-part-2 {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.bottom-work {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px;
+}
+
+.left-part-3 {
+    background-image: url(../images/bicycle3-background.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.biycle-1926 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.center-part-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+.petro-bike {
+    padding: 50px;
+}
+
+.bytle {
+    margin: 0 auto;
+    display: block;
+}
+
+.petro-bike h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #353738;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+
+.petro-bike p {
+    max-width: 434px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #848789;
+    font-family: "Lato";
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.wheel {
+    background-image: url(../images/background-wheel.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.right-part-3 {
+    background-image: url(../images/background-bicycle-bottom.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-twitter {
+    padding: 120px 0 60px;
+}
+
+.section-twitter h2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #353738;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-twitter h2 span {
+    font-weight: 300;    
+}
+
+.twitter-description {
+    width: 1080px;
+    height: 65px;
+    font-size: 24px;
+    line-height: 34px;
+    color: #848789;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.twitter-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.circle {
+    width: 11px;
+    height: 11px;
+    border: 2px solid #a9afb3;
+    border-radius: 50%;
+}
+
+.circle:hover {
+    background-color: #a9afb3;
+    cursor: pointer;
+}
+
+.twitter-item {
+    padding: 0 10px;
+}
+
+

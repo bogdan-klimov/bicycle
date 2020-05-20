@@ -27,6 +27,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-twitter {
+  color:  #56c7ee;
+  font-size: 25px;
+  text-align: center;
+}
+
 .icon-pinterest-circled:before { content: '\e800'; }
 .icon-twitter:before { content: '\f309'; }
 .icon-twitter-circled:before { content: '\f30a'; }
