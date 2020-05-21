@@ -334,4 +334,170 @@ hr {
     padding: 0 10px;
 }
 
+.galery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 540px;
+}
 
+.saddles-galery {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.left-saddles {
+    background-image: url(../images/left-saddles-background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.saddles-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right-saddles {
+    background-image: url(../images/right-saddles-background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.saddles-bottom {
+    background-image: url(../images/saddle-bottom-background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.bicycles-galery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-bicycle-galery {
+    background-image: url(../images/left-bicycle-galery-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-bicycle-galery {
+    background-image: url(../images/right-bicycle-galery-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-galery {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.shop-galery-top {
+    background-image: url(../images/shop-galery-top-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-galery-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.shop-bottom-galery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bottom-galery-left {
+    background-image: url(../images/bottom-galery-left-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-galery-right {
+    background-image: url(../images/bottom-galery-right-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.discovery-section {
+    padding: 75px 0;
+    background-color: #282f35;
+}
+
+.button {
+    margin: 0 auto;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 250px;
+    display: block;
+    padding: 15px 50px;
+    border: 1px solid #93979a;
+}
+
+.stay-on-saddles {
+    display: block;
+    padding: 100px 0;
+}
+
+.logo-second {
+    margin: 0 auto;
+    display: flex;
+}
+
+.stay-on-saddles-heading {
+    height: 33px;
+    font-size: 24px;
+    line-height: 34px;
+    color: #848789;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+.your-email {
+    padding: 15px 23px 19px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #929292;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    border: 1px solid #d3d6d9;
+}
+
+.submit-go {
+    padding: 15px 38px 23px
+}
+
+.submit-go {
+    border: none;
+    background-color: #64c29e;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.registration .your-email::placeholder {
+    font-size: 20px;
+    line-height: 24px;
+    color: #929292;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+} 
+
+.registration {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
