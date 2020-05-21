@@ -33,6 +33,21 @@
   text-align: center;
 }
 
+.icon-twitter-circled {
+  color: #78cdf0;
+  font-size: 40px;
+} 
+
+.icon-facebook-circled {
+  color: #537bbd;
+  font-size: 40px;
+}
+
+.icon-pinterest-circled {
+  color:  #eb5755;
+  font-size: 40px;
+}
+
 .icon-pinterest-circled:before { content: '\e800'; }
 .icon-twitter:before { content: '\f309'; }
 .icon-twitter-circled:before { content: '\f30a'; }

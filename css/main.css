@@ -501,3 +501,42 @@ hr {
     display: flex;
     margin-top: 30px;
 }
+
+footer .container {
+    max-width: 1010px;
+} 
+
+footer {
+    position: relative;
+    padding: 100px 0;
+    background-color: #f7f7f7;
+}
+
+.footer-left-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left-part span {
+    font-size: 16px;
+    line-height: 25px;
+    color: #848789;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+.footer-left-part span:nth-child(1) {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-left-part span:nth-child(3) {
+    font-style: italic;
+}
+
+.contacts-footer {
+    display: flex;
+    position: absolute;
+    left: calc(50% - 12px);
+    top: calc(50% - 12px);
+}
