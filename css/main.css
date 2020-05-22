@@ -393,6 +393,7 @@ hr {
 .shop-galery-top {
     background-image: url(../images/shop-galery-top-background.png);
     background-size: cover;
+    position: relative;
     background-position: center;
 }
 
@@ -539,4 +540,13 @@ footer {
     position: absolute;
     left: calc(50% - 12px);
     top: calc(50% - 12px);
+}
+
+.bicycle-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
